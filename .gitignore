@@ -1,0 +1,19 @@
+# Power BI local/cache files (do NOT ignore *.pbix - the report file is part of the project)
+.pbi/
+*.pbix.bak
+*.abf
+cache.abf
+localSettings.json
+*.tmp
+~$*
+
+# Power BI Project (PBIP) local artifacts
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
